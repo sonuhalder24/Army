@@ -118,6 +118,10 @@ h3{
   -webkit-animation: scroll-left 10s linear infinite;
   animation: scroll-left 15s linear infinite;
   }
+.scroll-left a:hover{
+    
+    animation-play-state: paused;
+  }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left {
   0% { -moz-transform: translateX(100%); }
