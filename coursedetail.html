@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malda Sainik Training Academy-Course Details</title>
     <link rel="icon" type="image/x-icon" href="images/logo.png"/>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -18,6 +18,33 @@
         crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+        @media (min-width: 0px) and (max-width: 475px) {
+            .tvis{
+                display: none;
+            }
+            .tshow{
+                visibility: visible;
+            }
+            .pad{
+                padding: 0px;
+            }
+        }
+        @media only screen and (min-width: 475px) {
+            
+            .phide{
+                display: none;
+            }
+            .show{
+                visibility: visible;
+            }
+            .pad{
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+            
+        }
+    </style>
 </head>
 
 <body style="background-color: bisque;">
@@ -43,72 +70,80 @@
             </ul>
         </div>
     </nav>
-
-    <section>
-        <div class="container-fluid pt-5">
+    <section style="overflow: hidden;">
+        <div class="container pt-5">
             <h4>
                 We provide physical training and classroom coaching. Physical Training is conducted by Ex-Man(PTI) and classroom coaching is done by experienced faculty.
-                <a href="#" class="link-info">Admission Open Contact Here....</a>
+                <a href="index.html#contact" style="text-decoration: none;" class="link-info">Admission Open Contact Here....</a>
             </h4>
         </div>
-        <div class="container pt-3">
+        <div class="pad pt-3">
             <table class="table-info table table-hover">
                 <tr class="table-info">
                     <th>No.</th>
-                    <th>Course Name</th>
-                    <th>Course Details</th>
+                    <th class="tvis">Course Name</th>
+                    <th class="tshow phide">Course Name and Details</th>
+                    <th class="tvis">Course Details</th>
                 </tr>
                 <tr class="table-info">
                     <td>1.</td>
-                    <td>ARMY</td>
-                    <td>Not available</td>
+                    <td>ARMY<br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
                 <tr class="table-info">
                     <td>2.</td>
-                    <td>NAVY</td>
-                    <td>Not available</td>
+                    <td>NAVY<br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
                 <tr class="table-info">
                     <td>3.</td>
-                    <td>AIR FORCE</td>
-                    <td>Not available</td>
+                    <td>AIR FORCE<br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
                 <tr class="table-info">
                     <td>4.</td>
-                    <td>CAPF(CRPF,BSF,CISF,ITBP,SSBNIA,SSF,Assam RIFLE)</td>
-                    <td>Not available</td>
+                    <td>CAPF(CRPF,BSF,CISF,ITBP,<br>SSBNIA,SSF,Assam RIFLE)<br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
                 <tr class="table-info">
                     <td>5.</td>
-                    <td>WBP</td>
-                    <td>Not available</td>
+                    <td>WBP <br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
                 <tr class="table-info">
                     <td>6.</td>
-                    <td>KP</td>
-                    <td>Not available</td>
+                    <td>KP<br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
                 <tr class="table-info">
                     <td>7.</td>
-                    <td>EXCISE</td>
-                    <td>Not available</td>
+                    <td>EXCISE<br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
                 <tr class="table-info">
                     <td>8.</td>
-                    <td>RPF</td>
-                    <td>Not available</td>
+                    <td>RPF<br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
                 <tr class="table-info">
                     <td>9.</td>
-                    <td>IB</td>
-                    <td>Not available</td>
+                    <td>IB<br><p class="tshow phide"><strong>Course Details :</strong> 1 Year</p></td>
+                    <td class="tvis">1 Year</td>
                 </tr>
             </table>
-            <h4 style="color: red;">** Both male and female can apply.<br/>*** Room and food facility is avaiable.</h4>
            
+           
+        </div>
+        <div class="container">
+            <h4 style="color: red;">** Both male and female can apply.<br/>*** Room and food facility is avaiable.</h4>
         </div>
         
     </section>
+    <footer class="py-1 lg-text set-cl">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Malda Sainik Training Academy</p>
+        </div>
+     </footer>
 
 </body>
 
